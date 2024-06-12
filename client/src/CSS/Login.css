@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+background-color: rgb(29, 210, 241);
+height: 100vh;
+display: grid;
+place-content: center;
+}
+
+.box{
+    height: 400px;
+    width:400px;
+    background-color: rgb(232, 232, 240);
+    border-bottom-right-radius: 170px;
+    border-top-left-radius: 120px;
+    text-align: center;
+    padding-top: 10%;
+    box-shadow: 30px 30px 10px#070101;
+    border-left: 8px solid rgb(0, 3, 0);
+}
+
+
+input{
+    height: 30px;
+    width : 330px;
+    margin-top: 25px;
+    text-align: center;
+    outline:invert;
+    outline-offset:5px ;
+    outline-color: rgb(1, 10, 12);
+    border-top: none;
+    border-left: 10px solid black;
+    border-right: none;
+    font-family:bold;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color:  rgb(181, 243, 254);
+    color:black;
+}
+.button{
+    height: 30px;
+    width : 100px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: black; 
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.Link{
+   color:rgb(4, 7, 211);
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
